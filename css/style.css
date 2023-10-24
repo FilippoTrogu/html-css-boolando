@@ -90,3 +90,11 @@ img{
     position: relative;
 }
 
+.heart{
+    background-color: white;
+    padding: 5px;
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+
