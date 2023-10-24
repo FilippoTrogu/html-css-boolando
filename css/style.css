@@ -8,6 +8,20 @@ body{
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
+header{
+    background-color: rgb(233, 124, 15);
+    width: 100%;
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#logo{
+    height: 45px;
+}
+
 main{
     padding-top: 40px;
     padding-bottom: 40px;
@@ -96,5 +110,9 @@ img{
     position: absolute;
     right: 0;
     top: 10px;
+}
+
+.icons{
+    color: white;
 }
 
