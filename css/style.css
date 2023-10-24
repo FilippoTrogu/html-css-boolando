@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+    background-color: aqua;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    gap: 10px 10px;
+    flex-wrap: wrap;
+}
+
+.col-33{
+    width: calc(100% / 3 - 10px);
+    background-color: black;
+    height: 500px;
+}
