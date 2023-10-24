@@ -16,6 +16,8 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    position: fixed;
+    z-index: 1;
 }
 
 #logo{
@@ -25,6 +27,14 @@ header{
 main{
     padding-top: 40px;
     padding-bottom: 40px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
 }
 
 .container{
@@ -114,5 +124,19 @@ img{
 
 .icons{
     color: white;
+}
+
+.small-text{
+    font-size: small;
+}
+
+.social{
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.info-azienda{
+    display: inline-block;
 }
 
